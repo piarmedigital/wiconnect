@@ -56,6 +56,10 @@ $(document).ready(function(){
 				nav:true,navText: ['<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 14L2 7.99997L8 1.99997" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>','<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 1.99997L8 7.99997L2 14" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'],
 		items:1, });
 		left_slider.on('changed.owl.carousel', function(e) {
+			setTimeout(function(){
+				$(".left_phone_in_slider .owl-item.active video").get(0).currentTime=0;
+
+				$(".left_phone_in_slider .owl-item.active video").get(0).play();},200);
 			$(".yellow_white_item").removeClass("active");
 			  $(".yellow_white_item").eq(e.page.index).addClass("active");
 			});

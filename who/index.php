@@ -59,10 +59,10 @@ Airports</div>
 					<div class="left_phone_in">
 						<div class="left_phone_in_slider owl-carousel">
 							<div class="left_phone_in_slider_item"><video src="/assets/images/Beauty1.MP4" autoplay loop muted playsinline ></video></div>
-							<div class="left_phone_in_slider_item"><video src="/assets/images/Travel1.mov" autoplay loop muted playsinline ></video></div>
-							<div class="left_phone_in_slider_item"><video src="/assets/images/Finance1.MP4" autoplay loop muted playsinline ></video></div>
-							<div class="left_phone_in_slider_item"><video src="/assets/images/Hospitality.mov" autoplay loop muted playsinline ></video></div>
-							<div class="left_phone_in_slider_item"><video src="/assets/images/Entertainment.mov" autoplay loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Travel1.mov"  loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Finance1.MP4"  loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Hospitality.mov"  loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Entertainment.mov"  loop muted playsinline ></video></div>
 						</div>
 					</div>
 				</div></div>

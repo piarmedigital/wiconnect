@@ -1,85 +1,237 @@
 <?php 
 global $title;
 global $description;
-$title="Unique combination of network and adtech expertise - WiConnect";
-$description="New revenue streams for Wi-Fi providers, network owners and venues. We propose you the best solution for effective communication with your clients.";
-include "header.php"?>
-	<div class="main_image" style="background:url('/assets/images/main.webp')no-repeat" data-mobileimage="/assets/images/mobile_back1.png">
-		<img src="/assets/images/mobile_back1.png" alt="" class="for_main_slider "/>
-		<div class="container relative_slide"><div class="data_main_image">
-			<div class="data_main_page_title">Make every connection count</div>
-			<div class="data_main_page_text">Only WiConnect brings together network and adtech expertise to create winning connections for everyone. </div>
+$title="Launch your advertising through the Wi-Fi - WiConnect";
+$description="Launch your advertising through the Wi-Fi in airports, hospitalities, malls, cafes. We offer sponsored ad campaigns before consumers connect to free Wi-Fi.";
+include "../header.php"?>
+	<div class="standart_background_image mobile443" style="background:url('/assets/images/backnew2.jpg')no-repeat"  data-mobileimage="/assets/images/mobile_back3.png">
+		<img src="/assets/images/mobile_back3.png" alt="" class="for_main_slider "/><div class="container relative_slide"><div class="data_main_image">
+			<div class="data_main_page_title">Who we serve:<br>
+advertisers </div>
+			<div class="data_main_page_text">WiConnect partners with ad agencies and advertisers in maximizing campaign ROI by connecting them with engaging, effective inventory.
+</div>
+			<a href="/contacts/" class="main_button">Contact Sales</a>
 		</div></div>
 	</div>
 	<div class="container">
-		<div class="main_circle_block with_line_grey">
-			<div class="main_circle_image hide_mobile"><img src="assets/images/main_circle.png" alt=""/></div>
-			<div class="main_circle_data">
-				<div class="for_mobile_main_c"><div class="main_circle_image show_mobile"><img src="assets/images/main_circle.png" alt=""/></div><div class="main_circle_title">Every connection provides<br> an opportunity</div></div>
-				<div class="main_circle_data">Improved performance and efficiencies for advertisers and ad platforms. New revenue streams for Wi-Fi providers, network owners and venues. And more engaging experiences for consumers, while protecting their privacy.</div>
+		<div class="title_block mb75">Media inventory</div>
+		<div class="quadro_circles_block">
+			<div class="quadro_circles_item">
+				<div class="quadro_circles_item_image"><img src="/assets/images/qua1.png" alt=""/></div>
+				<div class="quadro_circles_item_text"><span>30+</span>United States<br>
+Airports</div>
+			</div>
+			<div class="quadro_circles_item">
+				<div class="quadro_circles_item_image"><img src="/assets/images/qua2.png" alt=""/></div>
+				<div class="quadro_circles_item_text"><span>30+</span>International<br>
+Airports</div>
+			</div>
+			<div class="quadro_circles_item">
+				<div class="quadro_circles_item_image"><img src="/assets/images/qua3.png" alt=""/></div>
+				<div class="quadro_circles_item_text"><span>500+</span>Public Transit</div>
+			</div>
+			<div class="quadro_circles_item">
+				<div class="quadro_circles_item_image"><img src="/assets/images/qua4.png" alt=""/></div>
+				<div class="quadro_circles_item_text"><span>300+</span>Public Venues</div>
 			</div>
 		</div>
-		<div class="main_middle_block">
-			<div class="main_item_middle_block">
-				<div class="main_item_middle_title">Advertisers</div>
-				<div class="main_item_middle_description">Achieve higher ROI by delivering more relevant advertising through richer experiences to targeted audiences.</div>
-				<a href="/who/" class="main_button">Learn more</a>
-			</div>
-			<div class="main_item_middle_block">
-				<div class="main_item_middle_title">Ad Platforms</div>
-				<div class="main_item_middle_description">Discover ways to optimize ad platform performance with network-based device identification and 1st party insights.</div>
-				<a href="/contacts/" class="main_button">Learn more</a>
-			</div>
-			<div class="main_item_middle_block">
-				<div class="main_item_middle_title">Wi-Fi Providers</div>
-				<div class="main_item_middle_description">Customize public Wi-Fi with advanced, engaging experiences with targeted messaging. Benefit from optional advertising based-revenue generation.</div>
-				<a href="/providers/" class="main_button">Learn more</a>
-			</div>
-			<div class="main_item_middle_block ">
-				<div class="main_item_middle_title">Network Owners</div>
-				<div class="main_item_middle_description">Expand revenue through sponsored, targeted and programmatic advertising already occurring on your network.</div>
-				<a href="/contacts/" class="main_button">Learn more</a>
-			</div>
-		</div>
-	</div>
-	<div class="main_slider_block">
-		<div class="container">
-		<div class="slider_block owl-carousel">
-			<div class="main_slider_item">
-				<div class="left_main_slider_item"><img src="assets/images/slide.png" alt=""/></div>
-				<div class="right_main_slider_item">
-					<div class="title_main_slide">“WiConnect continues to be a trusted partner that delivers guaranteed video views that reaches our target audience of affluent travelers. We have been very pleased with the overall CTR that is consistently well over digital benchmarks.</div>
-					<div class="name_main_slide">Latonya Smothers Lawson</div>
-					<div class="desc_main_slide">Celebrity Cruises</div>
-				</div>
-			</div>
-			<div class="main_slider_item">
-				<div class="left_main_slider_item"><img src="assets/images/slide2.png" alt=""/></div>
-				<div class="right_main_slider_item">
-					<div class="title_main_slide">“WiConnect and BAI Communication have been in partnership since 2019 in the Toronto subway. WiConnect enables us to expand our advertising product offering and create value on the wireless networks we provide our transit customers. Through WiConnect, we are able to generate digital advertising revenue and provide a great customer experience for passengers, network advertisers and the transport authorities themselves.
+		<div class="unique_block">
+			<div class="unique_left">
+				<div class="main_circle_data">
+					<div class="for_mobile_main_c"><div class="main_circle_title">Unique advertiser opportunities</div></div>
+					<div class="main_circle_data">We offer sponsored ad campaigns before consumers connect to free Wi-Fi resulting in extraordinary ad performance. 
 </div>
-					<div class="name_main_slide">Sarah Palmer - Vice President, Commercial & Operations</div>
-					<div class="desc_main_slide">BAI Communications</div>
 				</div>
 			</div>
-			<div class="main_slider_item">
-				<div class="left_main_slider_item"><img src="assets/images/slide3.png" alt=""/></div>
-				<div class="right_main_slider_item">
-					<div class="title_main_slide">“WiConnect activated authentication and the Captive Portal services for our project on SPTrans buses that serve the greater São Paulo area here in Brazil. They integrated with our ad server, provide bus route targeting and send us performance data through an API. They are a knowledgeable and flexible team of professionals.</div>
-					<div class="name_main_slide">Rafael Neves, CEO InteliFi</div>
-					<div class="desc_main_slide">InteliFi CO</div>
+			<div class="unique_right">
+				<div class="unique_right_circles">
+					<div class="unique_right_circles_item"><div class="image"><img src="/assets/images/un1.png" alt=""/></div><div class="name">Airports</div></div>
+					<div class="unique_right_circles_item"><div class="image"><img src="/assets/images/un2.png" alt=""/></div><div class="name">Hospitality, malls, cafes</div></div>
+					<div class="unique_right_circles_item"><div class="image"><img src="/assets/images/un3.png" alt=""/></div><div class="name">Public transportation</div></div>
 				</div>
 			</div>
-		</div>
 		</div>
 	</div>
+	<div class="yellow_phone_block">
+		<div class="container">
+			<div class="double_yellow_phone">
+				<div class="left_yellow_phone"><div class="left_phone_yellow">
+					<div class="left_phone_in">
+						<div class="left_phone_in_slider owl-carousel">
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Beauty1.mp4" autoplay loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Travel.mp4" autoplay loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Finance.mp4" autoplay loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Electronics.mp4" autoplay loop muted playsinline ></video></div>
+							<div class="left_phone_in_slider_item"><video src="/assets/images/Charity.mp4" autoplay loop muted playsinline ></video></div>
+						</div>
+					</div>
+				</div></div>
+				<div class="right_yellow_phone">
+					<div class="double_white_title">Examples of the user experience</div>
+					<div class="double_white_text">Continue to message and engage audiences via SMS, email
+or programmatic advertising.
+					</div>
+					<div class="yellow_items">
+						<div class="yellow_white_item active">Beauty</div>
+						<div class="yellow_white_item">Travel</div>
+						<div class="yellow_white_item">Finance</div>
+						<div class="yellow_white_item">Electronics</div>
+						<div class="yellow_white_item">Charity</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="white_block pt133">
+		<div class="container">
+			<div class="double_who_white">
+				<div class="left_double_who_white">
+					<div class="title_block mb75">Ad performance unlike anything else</div>
+					<div class="line_download"><div class="title_line_download">Creative Guidelines</div><a href="/assets/images/WiConnect Campaign Creative Specifications.pdf" class="main_button" download>Download</a></div><div class="line_download"><div class="title_line_download">Media Kit</div><a href="/assets/images/WiConnect Media Kit.pdf" class="main_button" download>Download</a></div>
+				</div>
+				<div class="right_double_who_white">
+					<div class="right_table_who_mobile show_mobile">
+						<div class="right_table_mobile_item">
+							<div class="right_table_mobile_title">
+								Viewability
+							</div>
+							<div class="right_table_mobile_double">
+								<div class="right_table_mobile_left">
+									<div class="right_table_mobile_left_name">Others</div>
+									<div class="right_table_mobile_left_data">43%</div>
+								</div>
+								<div class="right_table_mobile_right">
+									<div class="right_table_mobile_right_name">Ours</div>
+									<div class="right_table_mobile_right_data">100%</div>
+								</div>
+							</div>
+						</div>
+						<div class="right_table_mobile_item">
+							<div class="right_table_mobile_title">
+								Clickthrough Rate (CTR)
+							</div>
+							<div class="right_table_mobile_double">
+								<div class="right_table_mobile_left">
+									<div class="right_table_mobile_left_name">Others</div>
+									<div class="right_table_mobile_left_data">0.60%</div>
+								</div>
+								<div class="right_table_mobile_right">
+									<div class="right_table_mobile_right_name">Ours</div>
+									<div class="right_table_mobile_right_data">5%</div>
+								</div>
+							</div>
+						</div>
+						<div class="right_table_mobile_item">
+							<div class="right_table_mobile_title">
+								Billable Video<br>Completion Rate (VCR)
+							</div>
+							<div class="right_table_mobile_double">
+								<div class="right_table_mobile_left">
+									<div class="right_table_mobile_left_name">Others</div>
+									<div class="right_table_mobile_left_data">72%</div>
+								</div>
+								<div class="right_table_mobile_right">
+									<div class="right_table_mobile_right_name">Ours</div>
+									<div class="right_table_mobile_right_data">100%</div>
+								</div>
+							</div>
+						</div>
+						<div class="right_table_mobile_item">
+							<div class="right_table_mobile_title">
+								Engagement
+							</div>
+							<div class="right_table_mobile_double">
+								<div class="right_table_mobile_left">
+									<div class="right_table_mobile_left_name">Others</div>
+									<div class="right_table_mobile_left_data">11 sec</div>
+								</div>
+								<div class="right_table_mobile_right">
+									<div class="right_table_mobile_right_name">Ours</div>
+									<div class="right_table_mobile_right_data">41 sec</div>
+								</div>
+							</div>
+						</div>
+						<div class="right_table_mobile_item">
+							<div class="right_table_mobile_title">
+								Share Of Voice
+							</div>
+							<div class="right_table_mobile_double">
+								<div class="right_table_mobile_left">
+									<div class="right_table_mobile_left_name">Others</div>
+									<div class="right_table_mobile_left_data">Limited</div>
+								</div>
+								<div class="right_table_mobile_right">
+									<div class="right_table_mobile_right_name">Ours</div>
+									<div class="right_table_mobile_right_data">100%</div>
+								</div>
+							</div>
+						</div>
+						<div class="right_table_mobile_item">
+							<div class="right_table_mobile_title">
+								Full Screen takeover
+							</div>
+							<div class="right_table_mobile_double">
+								<div class="right_table_mobile_left">
+									<div class="right_table_mobile_left_name">Others</div>
+									<div class="right_table_mobile_left_data">None</div>
+								</div>
+								<div class="right_table_mobile_right">
+									<div class="right_table_mobile_right_name">Ours</div>
+									<div class="right_table_mobile_right_data">100%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right_table_who hide_mobile">
+						<div class="header_line_who line_t_who">
+							<div>&nbsp;</div>
+							<div>Others</div>
+							<div>Ours</div>
+						</div>
+						<div class="data_line_who line_t_who">
+							<div>Viewability</div>
+							<div>43%</div>
+							<div>100%</div>
+						</div>
+						<div class="data_line_who line_t_who">
+							<div>Clickthrough Rate (CTR)</div>
+							<div>0.60%</div>
+							<div>5%</div>
+						</div>
+						<div class="data_line_who line_t_who">
+							<div>Billable Video Completion Rate (VCR)</div>
+							<div>72%</div>
+							<div>100%</div>
+						</div>
+						<div class="data_line_who line_t_who">
+							<div>Engagement</div>
+							<div>11 sec</div>
+							<div>41 sec</div>
+						</div>
+						<div class="data_line_who line_t_who">
+							<div>Share Of Voice</div>
+							<div>Limited</div>
+							<div>100%</div>
+						</div>
+						<div class="data_line_who line_t_who">
+							<div>Full Screen takeover</div>
+							<div>None</div>
+							<div>100%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
 	<div class="main_grey_block">
 		<div class="in_main_grey_block">
 			<div class="main_grey_logo">
-				<img src="assets/images/logowhite.svg" alt=""/>
+				<img src="/assets/images/logowhite.svg" alt=""/>
 			</div>
 			<div class="main_grey_data">Make every connection count with our unique<br> combination of network and adtech expertise.</div>
 			<a href="/contacts/" class="main_button">Connect with us</a>
 		</div>
 	</div>
-<?php include "footer.php"?>
+<?php include "../footer.php"?>
